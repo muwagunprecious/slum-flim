@@ -1,7 +1,7 @@
-# Netflix Clone React.js
+# Slumfilms React.js
 
 ## Overview
-This project is a Netflix clone built using React.js, designed to enhance skills in web development. It features a fully interactive user interface with various functionalities, making it a comprehensive movie-watching experience. The project is powered by TMDB API, utilizing Firebase for database management.
+This project is a Slumfilms movie web application built using React.js.
 
 ## Screenshots
 

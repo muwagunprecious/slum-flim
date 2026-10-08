@@ -69,11 +69,12 @@ function Navbar(props) {
             <div className="flex items-center justify-between h-16">
               <div className="flex items-center">
                 <div className="flex-shrink-0">
-                  <img
-                    className="h-6 cursor-pointer w-18"
-                    src="https://fontmeme.com/permalink/250902/1c1670dd6284f8d01001e1c74b52aae3.png"
-                    alt="NETFLIX"
-                  />
+                  <Link
+                    to={"/"}
+                    className="text-red-600 font-black text-2xl tracking-wider cursor-pointer uppercase font-sans hover:text-red-500 transition-colors"
+                  >
+                    SLUMFILMS
+                  </Link>
                 </div>
                 <div className="hidden md:block">
                   <div className="flex items-center ml-10 space-x-4">

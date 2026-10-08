@@ -26,11 +26,12 @@ function NavbarWithoutUser() {
         }`}
       >
         <div className="w-9/12 md:w-11/12">
-          <img
-            className="h-8 sm:h-10 sm:w-18 ml-8 cursor-pointer"
-            src="https://fontmeme.com/permalink/250902/1c1670dd6284f8d01001e1c74b52aae3.png"
-            alt="NETFLIX"
-          />
+          <Link
+            to="/"
+            className="text-red-600 font-black text-2xl sm:text-3xl tracking-wider cursor-pointer uppercase font-sans ml-8 hover:text-red-500 transition-colors inline-block"
+          >
+            SLUMFILMS
+          </Link>
         </div>
 
         <div>
